@@ -3,31 +3,34 @@
 
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.css">
     <title>Simply Flat</title>
 </head>
 
 <body>
 
-    <header>
-        <!-- Heading 1, make a link and use "index.html" for href attribute value -->
-        <div>
-            <h1> Simply Flat</h1>
-        </div>
-        <nav>
-            <ul>
-                <li> <a href="index.html">Home</a></li>
-                <!-- Link, make href attribute value = "index.html" -->
-                <li> <a href="about.html">About Us</a></li>
-                <!-- Link, make href attribute value = "about.html" -->
-                <li> <a href="portfolio.html">Portfolio</a></li>
-                <!-- Link, make href attribute value = "portfolio.html" -->
-                <li> <a href="blog.html">Blog</a></li>
-                <!-- Link, make href attribute value = "blog.html" -->
-                <li> <a href="contact.html">Contact Us</a></li>
-                <!-- Link, make href attribute value = "contact.html" -->
-            </ul>
-        </nav>
-    </header>
+    <div class="container">
+        <header class="row">
+            <!-- Heading 1, make a link and use "index.html" for href attribute value -->
+            <div class="one-third column">
+                <h1> Simply Flat</h1>
+            </div>
+            <nav class="two-thirds column">
+                <ul>
+                    <li> <a href="index.html">Home</a></li>
+                    <!-- Link, make href attribute value = "index.html" -->
+                    <li> <a href="about.html">About Us</a></li>
+                    <!-- Link, make href attribute value = "about.html" -->
+                    <li> <a href="portfolio.html">Portfolio</a></li>
+                    <!-- Link, make href attribute value = "portfolio.html" -->
+                    <li> <a href="blog.html">Blog</a></li>
+                    <!-- Link, make href attribute value = "blog.html" -->
+                    <li> <a href="contact.html">Contact Us</a></li>
+                    <!-- Link, make href attribute value = "contact.html" -->
+                </ul>
+            </nav>
+        </header>
 
     <main>
         <h1>About Us</h1>
@@ -85,52 +88,53 @@
 
     </main>
 
-    <footer>
-        <div>
-            <!-- Heading 4 -->
-            <h4>Simply Flat</h4>
+   <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="one-third column">
+                        <!-- Heading 4 -->
+                        <h4>Simply Flat</h4>
+                        <!-- Paragraph -->
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eu posuere leo. Pellentesque a lobortis erat. Maecenas vel metus vitae urna sollicitudin eleifend a vel elit.</p>
+                    </div>
 
-            <!-- Paragraph -->
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eu posuere leo. Pellentesque a lobortis erat. Maecenas vel metus vitae urna sollicitudin eleifend a vel elit.</p>
-        </div>
+                    <div class="one-third column">
+                        <!-- Heading 4 -->
+                        <h4>Testimonials</h4>
+                        <!-- Paragraph -->
+                        <p>Consectetur adipiscing elit. Pellentesque eu posuere leo. Pellentesque a lobortis erat. Maecenas vel metus vitae urna sollicitudin eleifend a vel elit. LouEtta</p>
+                    </div>
 
-        <div>
-            <!-- Heading 4 -->
-            <h4>Testimonials</h4>
+                    <div class="one-third column">
+                        <!-- Heading 4 -->
+                        <h4>Contact Us</h4>
+                        <!-- Unordered List, make the URL a link and use "#" for href attribute value-->
+                        <ul>
+                            <li>5B Streat, City 50987</li>
+                            <li>info@example.com</li>
+                            <li>1.541.258.2881</li>
+                            <li>1.541.854.8412</li>
+                            <li><a href="#">http://www.example.com</a></li>
+                        </ul>
+                    </div>
 
-            <!-- Paragraph -->
-            <p>Consectetur adipiscing elit. Pellentesque eu posuere leo. Pellentesque a lobortis erat. Maecenas vel metus vitae urna sollicitudin eleifend a vel elit. LouEtta</p>
-        </div>
+                    <div class="one-whole column">
+                        <!-- Heading 4 -->
+                        <h4>We're Social</h4>
+                        <!-- Social media icons go here - You will add them later -->
+                    </div>
 
-        <div>
-            <!-- Heading 4 -->
-            <h4>Contact Us</h4>
-
-            <!-- Unordered List, make the URL a link and use "#" for href attribute value-->
-            <ul>
-                <li>5B Streat, City 50987</li>
-                <li>info@example.com</li>
-                <li>1.541.258.2881</li>
-                <li>1.541.854.8412</li>
-                <li><a href="#">http://www.example.com</a></li>
-            </ul>
-        </div>
-
-        <div>
-            <!-- Heading 4 -->
-            <h4>We're Social</h4>
-
-            <!-- Social media icons go here - You will add them later -->
-        </div>
-        <!-- Paragraph -->
-        <div>
-            <p>&copy; 2013 Simply Flat</p>
-        </div>
-        <!-- Paragraph, make "Northify" a link and use "#" for href attribute value -->
-        <div>
-            <p> Theme by Northify</p>
-        </div>
-    </footer>
+                    <div class="one-half column">
+                        <p>&copy; 2013 Simply Flat</p>
+                    </div>
+                    <!-- Paragraph, make "Northify" a link and use "#" for href attribute value -->
+                    <div class="one-half column">
+                        <p> Theme by Northify</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
 </body>
 
 </html>
