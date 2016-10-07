@@ -11,7 +11,7 @@
 <body>
 
     <div class="container">
-        <header class="row">
+        <header class="row header">
             <!-- Heading 1, make a link and use "index.html" for href attribute value -->
             <div class="one-third column">
                 <h1 class="brand"> Simply Flat</h1>
@@ -32,11 +32,13 @@
             </nav>
         </header>
 
-        <main>
-            <section class="page-header">
+        <main class="main">
+            <section class="page-header home">
                 <div class="container">
                     <div class="row">
                         <h1>This theme is flat, fun and easy to customize.</h1>
+
+
                         <div class="one-half column">
                             <p>Sit in meis saepe, ea mei unum ancillae liberavisse. Alienum atomorum efficiantur sea, mei ex populo admodum. Est ei illum forensibus constituam, ut vidisse fabulas accusamus pro. Vis vero civibus te, nulla platonem quaerendum in eam</p>
                             <a href="#">Find Out More</a> <a href="#">See Our Clients</a></div>
@@ -47,9 +49,8 @@
             </section>
 
             <section class="message">
-                <div class="container">
-                    <h3>This theme is fully responsive. Well of course it is. This is great!</h3>
-                    <a href="#">Find Out More</a></div>
+                <h3>This theme is fully responsive. Well of course it is. This is great!</h3>
+                <a href="#">Find Out More</a>
             </section>
 
             <section class="main-content-top">
@@ -57,16 +58,22 @@
                     <div class="row">
                         <h1>You should you choose Simply Flat</h1>
                         <div class="one-third column">
-                            <h3>Fully Responsive</h3>
-                            <p>Timeam quaeque fuisset eu has, ex aperiri facilis efficiendi quo, ei sed choro voluptua moderatiu.</p>
+                            <div class="contentbox-beige">
+                                <h3>Fully Responsive</h3>
+                                <p>Timeam quaeque fuisset eu has, ex aperiri facilis efficiendi quo, ei sed choro voluptua moderatiu.</p>
+                            </div>
                         </div>
                         <div class="one-third column">
-                            <h3>Super Flat & Fun</h3>
-                            <p>Timeam quaeque fuisset eu has, ex aperiri facilis efficiendi quo, ei sed choro voluptua moderatiu.</p>
+                            <div class="contentbox-beige">
+                                <h3>Super Flat & Fun</h3>
+                                <p>Timeam quaeque fuisset eu has, ex aperiri facilis efficiendi quo, ei sed choro voluptua moderatiu.</p>
+                            </div>
                         </div>
                         <div class="one-third column">
-                            <h3>Easy to Configure</h3>
-                            <p>Timeam quaeque fuisset eu has, ex aperiri facilis efficiendi quo, ei sed choro voluptua moderatiu.</p>
+                            <div class="contentbox-beige">
+                                <h3>Easy to Configure</h3>
+                                <p>Timeam quaeque fuisset eu has, ex aperiri facilis efficiendi quo, ei sed choro voluptua moderatiu.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -76,20 +83,30 @@
                 <div class="container">
                     <div class="row">
                         <div class="one-half column">
-                            <h2>Showcase all your work</h2>
-                            <p>Eruditi fabellas maiestatis ei vis, populo audiam mnesarchum et vis, prima saepe pri ad. Quidam nonumes an vel, no quo reque eloquentiam. Ex saperet omittantur vix, usu ut bonorum similique. Cum sale commodo ponderum id, nihil vidisse at sed, euismod vivendo ius ne.Quis error concludaturque.</p>
-                            <!-- Link, use "#" for href attribute value -->
-                            <a href="#">See Our Clients</a>
+                            <div class="contentbox-beige">
+                                <h2>Showcase all your work</h2>
+                                <p>Eruditi fabellas maiestatis ei vis, populo audiam mnesarchum et vis, prima saepe pri ad. Quidam nonumes an vel, no quo reque eloquentiam. Ex saperet omittantur vix, usu ut bonorum similique. Cum sale commodo ponderum id, nihil vidisse at sed, euismod vivendo ius ne.Quis error concludaturque.</p>
+                                <!-- Link, use "#" for href attribute value -->
+                                <a href="#">See Our Clients</a>
+                            </div>
                         </div>
                         <div class="one-half column">
-                            <!-- Paragraph -->
-                            <p>Sit amettur</p>
-                            <!-- Paragraph -->
-                            <p>Sadipiscing elit</p>
-                            <!-- Paragraph -->
-                            <p>Pellsque eu posuere</p>
-                            <!-- Paragraph -->
-                            <p>Dolor sit amet</p>
+                            <div class="one-quarter column alpha tile">
+                                <!-- Paragraph -->
+                                <p>Sit amettur</p>
+                            </div>
+                            <div class="one-quarter column alpha tile">
+                                <!-- Paragraph -->
+                                <p>Sadipiscing elit</p>
+                            </div>
+                            <div class="one-quarter column alpha tile">
+                                <!-- Paragraph -->
+                                <p>Pellsque eu posuere</p>
+                            </div>
+                            <div class="one-quarter column alpha tile">
+                                <!-- Paragraph -->
+                                <p>Dolor sit amet</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -101,8 +118,7 @@
                         <div class="one-whole column">
                             <img src="images/responsive.png" alt="Responsive" class="img-responsive">
                             <!-- Image, path to image is "images/responsive.png", enter "Responsive" for alt attribute value -->
-                        </div>
-                        <div>
+
                             <!-- Heading 2 -->
                             <h2>Looks Great Everywhere</h2>
                             <!-- Paragraph -->
@@ -127,7 +143,7 @@
                             <!-- Image, path to image is "http://lorempixel.com/400/275/business/", enter "Business meeting" for alt attribute value -->
                         </div>
 
-                        <div class="two-thirds column"> 
+                        <div class="two-thirds column">
                             <!-- Heading 2 -->
                             <h2>From the blog</h2>
                             <!-- Paragraph -->
@@ -140,7 +156,7 @@
             </section>
         </main>
 
-        <footer>
+        <footer class="footer">
             <div class="container">
                 <div class="row">
                     <div class="one-third column">
@@ -175,13 +191,14 @@
                         <h4 class="social">We're Social</h4>
                         <!-- Social media icons go here - You will add them later -->
                     </div>
-
-                    <div class="one-half column">
-                        <p>&copy; 2013 Simply Flat</p>
-                    </div>
-                    <!-- Paragraph, make "Northify" a link and use "#" for href attribute value -->
-                    <div class="one-half column">
-                        <p><a href="#">Theme by </a>Northify</p>
+                    <div class="row footer-bottom">
+                        <div class="one-half column">
+                            <p>&copy; 2013 Simply Flat</p>
+                        </div>
+                        <!-- Paragraph, make "Northify" a link and use "#" for href attribute value -->
+                        <div class="one-half column">
+                            <p><a href="#">Theme by </a>Northify</p>
+                        </div>
                     </div>
                 </div>
             </div>
