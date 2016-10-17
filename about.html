@@ -5,14 +5,15 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+    <script src="https://use.fontawesome.com/08174a6492.js"></script>
     <title>Simply Flat</title>
 </head>
 
 <body>
 
     <div class="container">
-        <header class="row">
-            <!-- Heading 1, make a link and use "index.html" for href attribute value -->
+        <header class="row header">
             <div class="one-third column">
                 <h1 class="brand"> Simply Flat</h1>
             </div>
@@ -63,7 +64,7 @@
                     <div class="row">
                         <h1>Our Team</h1>
                         <div class="one-half column">
-                            <div class="team-member">
+                            <div class="content-box team-member">
                                 <img src="http://lorempixel.com/500/300/business/1" alt="Business" class="img-responsive">
                                 <!-- Heading 3, make a link and use "#" for href attribute value -->
                                 <h3><a href="#">Jason Bourne</a></h3>
@@ -71,11 +72,16 @@
                                 <small>Chief Executive Officer / CEO</small>
                                 <!-- Paragraph -->
                                 <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, justo sit amet risus etiam porta sem...</p>
+                                <ul>
+                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                </ul>
                             </div>
                         </div>
 
                         <div class="one-half column">
-                            <div class="team-member">
+                            <div class="content-box team-member">
                                 <img src="http://lorempixel.com/500/300/business/2" alt="Business" class="img-responsive">
                                 <!-- Heading 3, make a link and use "#" for href attribute value -->
                                 <h3><a href="#">Jason Bourne</a></h3>
@@ -83,11 +89,16 @@
                                 <small>Chief Executive Officer / CEO</small>
                                 <!-- Paragraph -->
                                 <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, justo sit amet risus etiam porta sem...</p>
+                                <ul>
+                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                </ul>
                             </div>
                         </div>
 
                         <div class="one-half column">
-                            <div class="team-member">
+                            <div class="content-box team-member">
                                 <img src="http://lorempixel.com/500/300/business/3" alt="Business" class="img-responsive">
                                 <!-- Heading 3, make a link and use "#" for href attribute value -->
                                 <h3><a href="#">Jason Bourne</a></h3>
@@ -95,11 +106,16 @@
                                 <small>Chief Executive Officer / CEO</small>
                                 <!-- Paragraph -->
                                 <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, justo sit amet risus etiam porta sem...</p>
+                                <ul>
+                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                </ul>
                             </div>
                         </div>
 
                         <div class="one-half column">
-                            <div class="team-member">
+                            <div class="content-box team-member">
                                 <img src="http://lorempixel.com/500/300/business/4" alt="Business" class="img-responsive">
                                 <!-- Heading 3, make a link and use "#" for href attribute value -->
                                 <h3><a href="#">Jason Bourne</a></h3>
@@ -107,6 +123,11 @@
                                 <small>Chief Executive Officer / CEO</small>
                                 <!-- Paragraph -->
                                 <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, justo sit amet risus etiam porta sem...</p>
+                                <ul>
+                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                </ul>
                             </div>
                         </div>
                     </div>
@@ -118,7 +139,7 @@
 
         </main>
 
-        <footer>
+        <footer class="footer">
             <div class="container">
                 <div class="row">
                     <div class="one-third column">
@@ -138,23 +159,28 @@
                     <div class="one-third column">
                         <!-- Heading 4 -->
                         <h4>Contact Us</h4>
-                        <!-- Unordered List, make the URL a link and use "#" for href attribute value-->
                         <ul>
-                            <li>5B Streat, City 50987</li>
-                            <li>info@example.com</li>
-                            <li>1.541.258.2881</li>
-                            <li>1.541.854.8412</li>
-                            <li><a href="#">http://www.example.com</a></li>
+                            <li><i class="fa fa-home"></i> 5B Streat, City 50987</li>
+                            <li><i class="fa fa-envelope"></i> info@example.com</li>
+                            <li><i class="fa fa-phone-square"></i> 1.541.258.2881</li>
+                            <li><i class="fa fa-print"></i> 1.541.854.8412</li>
+                            <li><i class="fa fa-globe"></i> <a href="#">http://www.example.com</a></li>
                         </ul>
                     </div>
 
                     <div class="one-whole column">
                         <!-- Heading 4 -->
                         <h4 class="social">We're Social</h4>
-                        <!-- Social media icons go here - You will add them later -->
+                        <ul class="social-list">
+                            <li><a href="#"><i class="fa fa-facebook fa-2x"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter fa-2x"></i></a></li>
+                            <li><a href="#"><i class="fa fa-linkedin fa-2x"></i></a></li>
+                            <li><a href="#"><i class="fa fa-pinterest fa-2x"></i></a></li>
+                            <li><a href="#"><i class="fa fa-google-plus fa-2x"></i></a></li>
+                        </ul>
                     </div>
 
-                   <div class="row footer-bottom">
+                    <div class="row footer-bottom">
                         <div class="one-half column">
                             <p>&copy; 2013 Simply Flat</p>
                         </div>
