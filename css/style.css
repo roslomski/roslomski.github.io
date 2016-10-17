@@ -363,7 +363,7 @@ a {
     color: #fff;
 }
 .footer-bottom {
-    background-color: #1e1f1f;
+    background-color: black;
 }
 .footer-bottom p {
     color: #999;
@@ -377,5 +377,3 @@ a {
     font-size: 16px;
     font-weight: 200;
 }
-
-/*box sizing*/
