@@ -29,40 +29,51 @@
 .one-sixth {
     width: 140px;
 }
+.one-quarter {
+    width: 220px;
+}
 .alpha {
-    margin margin-left: 0;
+    margin-left: 0;
 }
 .omega {
     margin-right: 0;
 }
+.nav {
+    padding-top: 60px;
+}
+.nav li {
+    font-size: 18px;
+}
 .nav ul li {
     display: inline-block;
 }
-.ul {
+ul {
     list-style: none;
     padding: 0px;
+    margin: 0;
 }
 .img-responsive {
     max-width: 100%;
     height: auto;
 }
 .brand {
+    color: white;
     padding-top: 45px;
     padding-bottom: 45px;
-}
-.nav {
-    padding-top: 60px;
+    font-size: 22px;
 }
 .pull-right {
     float: right;
 }
-.contentbox{
+.contentbox {
     color: #fff;
     padding: 10px;
     margin-bottom: 70px;
 }
-.contentbox li{
-    color:#373737;
+.contentbox li {
+    color: #373737;
+    font-size: 18px;
+    font-weight: 200;
 }
 .contentbox-beige {
     background-color: #f9f8f8;
@@ -82,14 +93,40 @@
     float: left;
     margin-right: 15px;
 }
+.contentbox h4 {
+    font-size: 20px;
+    font-weight: normal;
+}
+.contentbox i {
+    color: #5adae2;
+}
 .tile {
-    background-color:#5adae2;
+    background-color: #5adae2;
     color: #fff;
     padding: 10px;
     margin-bottom: 10px;
 }
 .social {
     text-align: center;
+}
+.social-list {
+    text-align: center;
+}
+.social-list li {
+    display: inline-block;
+}
+.social-list i {
+    background-color: #2D2D2D;
+    margin: 5px 10px 0 0;
+    padding: 3px;
+    width: 40px;
+    display: inline-block;
+}
+.title p {
+    margin: 0;
+}
+.title i {
+    font-size: 108px;
 }
 .blog-tease {
     color: #fff;
@@ -105,12 +142,28 @@
 }
 .page-header p {
     padding-left: 15px;
-}
-.home h1 {
-    color: #fff;
+    font-size: 26px;
 }
 .page-header.home {
     margin-bottom: 0;
+}
+.page-header.home h1 {
+    font-weight: normal;
+    text-align: center;
+}
+.page-header.home p {
+    font-size: 18px;
+    font-weight: 200;
+}
+.page-header.home a {
+    padding-left: 35px;
+}
+.page-header h1 {
+    font-weight: bold;
+    text-align: center;
+}
+.home h1 {
+    color: #fff;
 }
 .message {
     background-color: #4cd2da;
@@ -127,6 +180,11 @@
 .main-content-bottom {
     padding-bottom: 75px;
 }
+.main-content-top i {
+    color: #5adae2;
+    vertical-align: -10px;
+    /* center icon to heading */
+}
 .blog-tease {
     height: 210px;
 }
@@ -135,6 +193,37 @@
 }
 .team-member {
     margin-bottom: 20px;
+}
+.team-member h1 {
+    text-align: center;
+}
+.team-member ul {
+    text-align: right;
+}
+.team-member li {
+    display: inline-block;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.team-member a {
+    color: #1e1f1f;
+}
+.team-member i {
+    background-color: #edecea;
+    color: #1e1f1f;
+    font-size: 16px;
+    padding: 3px;
+    margin: 0;
+    width: 22px;
+    display: inline-block;
+    text-align: center;
+}
+.address,
+.address a {
+    color: #1e1f1f;
+}
+.address li {
+    padding-bottom: 5px;
 }
 .portfolio-item {
     margin-bottom: 10px;
@@ -145,9 +234,32 @@
 }
 .info li {
     display: inline-block;
+    font-size: 14px;
+    background-color: #edecea;
+    padding: 5px 8px;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+.info i {
+    color: #1e1f1f;
+    display: inline-block;
+    width: 22px;
+    text-align: center;
 }
 .sidebar {
-    padding: 10px;
+    padding: 30px;
+}
+.sidebar p {
+    color: #1e1f1f;
+    font-size: 13px;
+    line-height: 18px;
+    padding-bottom: 10px;
+}
+.sidebar a {
+    color: #1e1f1f;
+}
+.sidebar li {
+    font-size: 14px;
 }
 .recent-entries img {
     float: left;
@@ -164,14 +276,33 @@
 }
 body {
     background-color: #999;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
 }
-h1,
-h2,
+h1 {
+    color: #373737;
+    font-size: 38px;
+}
+h2 {
+    color: #373737;
+    font-size: 32px;
+}
 h3 {
     color: #373737;
+    font-size: 24px;
+    font-weight: 200;
+}
+h4 {
+    color: #373737;
+    font-size: 18px;
+}
+p {
+    font-size: 18px;
 }
 a {
     color: #fff;
+    text-decoration: none;
 }
 .header {
     background-color: #373737;
@@ -190,6 +321,15 @@ a {
 }
 .footer-bottom p {
     color: #999;
+}
+.footer p {
+    font-size: 16px;
+    font-weight: 200;
+    margin-top: 0px;
+}
+.footer ul {
+    font-size: 16px;
+    font-weight: 200;
 }
 
 /*box sizing*/
