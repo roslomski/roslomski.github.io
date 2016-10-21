@@ -184,7 +184,6 @@ ul {
 }
 .page-header h1 {
     font-weight: bold;
-    text-align: center;
 }
 .home h1 {
     color: #fff;
@@ -209,8 +208,11 @@ ul {
     vertical-align: -10px;
     /* center icon to heading */
 }
+.main-content-bottom {
+    margin-bottom: 75px;
+}
 .contentbox {
-    color: #fff;
+    f color: #fff;
     padding: 10px;
     margin-bottom: 70px;
 }
@@ -246,6 +248,7 @@ ul {
 }
 .blog-tease {
     color: #fff;
+    min-height: 250px;
 }
 .blog-tease h2 {
     color: #fff;
@@ -267,6 +270,7 @@ ul {
 
 .portfolio-item {
     margin-bottom: 10px;
+    position: relative;
 }
 .portfolio-title {
     color: white;
@@ -285,7 +289,7 @@ ul {
     -o-transition: opacity 0.3s ease-out;
     transition: opacity 0.3s ease 0s;
 }
-.portfollio-title:hover {
+.portfolio-title:hover {
     background-color: #5adae2;
     opacity: .9;
 }
@@ -299,6 +303,12 @@ ul {
     padding: 5px 8px;
     margin-top: 5px;
     margin-right: 5px;
+}
+.info a:hover {
+    color: #5adae2;
+}
+.info i:hover {
+    color: #5adae2;
 }
 .sidebar {
     padding: 30px;
@@ -393,6 +403,7 @@ h1 {
 h2 {
     color: #373737;
     font-size: 32px;
+    margin: 0;
 }
 h3 {
     color: #373737;
@@ -405,6 +416,7 @@ h4 {
 }
 p {
     font-size: 18px;
+    margin: 0;
 }
 a {
     color: #fff;
@@ -413,7 +425,7 @@ a {
 .header {
     background-color: #373737;
 }
-.main {
+main {
     background-color: #edecea;
 }
 .footer {
