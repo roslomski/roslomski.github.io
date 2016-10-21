@@ -82,10 +82,32 @@ ul {
     padding-top: 60px;
 }
 .nav li {
+    float: none;
+    border-right: 1px solid #dedede;
+    /* light gray */
     font-size: 18px;
+}
+.nav li:last-child {
+    border-right: 0 none;
 }
 .nav ul li {
     display: inline-block;
+}
+.nav a {
+    padding: 0px 10px;
+    -webkit-transition: color 0.3s ease 0s;
+    -moz-transition: color 0.3s ease-out;
+    -ms-transition: color 0.3s ease-out;
+    -o-transition: color 0.3s ease-out;
+    transition: color 0.3s ease-in-out;
+}
+.nav a:hover {
+    color: #5adae2;
+    /* turquoise */
+}
+.active a {
+    color: #5adae2;
+    /* turquoise */
 }
 .pull-right {
     float: right;
@@ -108,6 +130,27 @@ ul {
     padding: 3px;
     width: 40px;
     display: inline-block;
+}
+.social-list i:hover {
+    background-color: #373737;
+    /* dark grey */
+}
+.btn {
+    display: inline-block;
+    font-size: 14px;
+    background-color: #0B676B;
+    /* teal */
+    color: #FFF;
+    padding: 15px 20px;
+    border: 0 none;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    -webkit-transition: background 0.3s ease 0s;
+    -moz-transition: background 0.3s ease-out;
+    -ms-transition: background 0.3s ease-out;
+    -o-transition: background 0.3s ease-out;
+    transition: background 0.3s ease-in-out;
 }
 
 /* MAIN CONTENT */
@@ -226,8 +269,25 @@ ul {
     margin-bottom: 10px;
 }
 .portfolio-title {
-    display: none;
-    /* hide portfolio image text */
+    color: white;
+    text-align: center;
+    height: 308px;
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    /* opacity is zero. Nothing displays */
+    padding: 10px;
+    -webkit-transition: opacity 0.3s ease 0s;
+    -moz-transition: opacity 0.3s ease-out;
+    -ms-transition: opacity 0.3s ease-out;
+    -o-transition: opacity 0.3s ease-out;
+    transition: opacity 0.3s ease 0s;
+}
+.portfollio-title:hover {
+    background-color: #5adae2;
+    opacity: .9;
 }
 
 /* BLOG PAGE */
@@ -365,6 +425,13 @@ a {
 .footer-bottom {
     background-color: black;
 }
+.footer-bottom a {
+    color: white;
+}
+.footer-bottom a:hover {
+    color: #5adae2;
+    /* turquoise */
+}
 .footer-bottom p {
     color: #999;
 }
@@ -376,4 +443,8 @@ a {
 .footer ul {
     font-size: 16px;
     font-weight: 200;
+}
+.footer a:hover,
+i:hover {
+    color: #5adae2;
 }
