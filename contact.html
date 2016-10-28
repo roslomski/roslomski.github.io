@@ -30,7 +30,7 @@
                     <!-- Link, make href attribute value = "portfolio.html" -->
                     <li> <a href="blog.html">Blog</a></li>
                     <!-- Link, make href attribute value = "blog.html" -->
-                    <li class="active"> <a href="contact.html">Contact Us</a></li>
+                    <li class="active"><a href="contact.html">Contact Us</a></li>
                     <!-- Link, make href attribute value = "contact.html" -->
                 </ul>
             </nav>
@@ -48,7 +48,7 @@
 
             <section class="table">
                 <div class="container">
-                    <table>
+                    <table class="contact-table">
                         <caption>We are here to serve you</caption>
                         <tr>
                             <th scope="col">name</th>
@@ -125,12 +125,17 @@
                     <div class="row">
                         <!-- Paragraph -->
                         <p>We'd love to hear from you. Interested in working together? Fill out the form below with some info about your project and we will get back to you right away.</p>
-                        <form action="#" method="post" name="contact-from">
-                            <input type="text" placeholder="Name" required tabindex="1">
-                            <input type="email" placeholder="Email" tabindex="2" required>
-                            <input type="tel" placeholder="Phone Number" tabindex="3" required>
-                            <textarea placeholder="commands" cols="60" rows="10" tabindex="4" required></textarea>
-                            <input type="submit" value="Send Message" tabindex="5">
+                        <form action="#" method="post" name="contact-from" class="contact-form">
+                            <div class="one-half column">
+                                <input type="text" placeholder="Name" required tabindex="1">
+
+                                <input type="email" placeholder="Email" tabindex="2" required>
+                                <input type="tel" placeholder="Phone Number" tabindex="3" required>
+                            </div>
+                            <div class="one-half column">
+                                <textarea placeholder="commands" cols="60" rows="10" tabindex="4" required></textarea>
+                                <input type="submit" value="Send Message" class="btn pull-right" tabindex="5">
+                            </div>
                         </form>
                     </div>
                 </div>
@@ -206,7 +211,7 @@
                             <p>&copy; 2013 Simply Flat</p>
                         </div>
                         <div class="one-half column">
-                            <p><a href="#">Theme by Northify</a></p>
+                            <p class="pull-right"><a href="#">Theme by Northify</a></p>
                         </div>
                     </section>
                 </div>
