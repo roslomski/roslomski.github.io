@@ -87,4 +87,35 @@
 
 @media (min-width: 992px) {
     /* ... paste CSS here ... */
+    .container {
+        width: 960px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .column {
+        float: left;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    .one-whole {
+        width: 940px;
+    }
+    .three-quarters {
+        width: 700px;
+    }
+    .one-half {
+        width: 460px;
+    }
+    .one-quarter {
+        width: 220px;
+    }
+    .two-thirds {
+        width: 620px;
+    }
+    .one-third {
+        width: 300px;
+    }
+    .one-sixth {
+        width: 140px;
+    }
 }
